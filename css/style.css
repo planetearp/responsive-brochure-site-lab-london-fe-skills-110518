@@ -64,6 +64,7 @@ nav div:hover {
 .pic {
   display: block;
   max-width: 60%;
+  margin: auto;
 }
 
 section {
