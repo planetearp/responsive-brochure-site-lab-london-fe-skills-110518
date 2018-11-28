@@ -55,7 +55,8 @@ nav div:hover {
 
 
 .pic {
-  min-width: 60%;
+  width: auto;
+  min-width: 360px;
 }
 
 section {
