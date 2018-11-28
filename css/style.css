@@ -1,0 +1,72 @@
+
+body {
+  background-image: url("/images/blockchain.jpg");
+  font-family: roboto;
+  color: white;
+}
+
+main {
+  max-width: 90%;
+  margin: auto;
+}
+  
+h1 {
+  font-family: Creepster, roboto, 'Sans-Serif';
+  letter-spacing: 5px;
+  background-color: rgb(54, 127, 150);
+  background-color: rgba(54, 127, 150,0.5);
+  font-size: 5vw;
+  margin: 0px;
+  padding-left: 30px;
+}
+
+h2 {
+  padding-left: 30px;
+}
+
+nav {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(54, 127, 150);
+  background-color: rgba(54, 127, 150,0.9);
+}
+
+nav div {
+  border-right: 1px solid white;
+  color: white;
+  padding: 0 30px 5px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+#menu {
+  display: none;
+}
+
+nav div:hover {
+  background-color: black;
+  background-color: hsl(194, 47%, 20%);
+}
+
+.spacer {
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  padding: 20px;
+}
+
+.pic {
+  display: block;
+  width: 60%;
+}
+
+section {
+  background-color: rgba(133, 133, 133,0.5);
+  
+}
