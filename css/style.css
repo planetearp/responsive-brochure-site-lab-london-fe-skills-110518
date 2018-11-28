@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/blockchain.jpg");
+  font-family: roboto;
+  color: white;
+}
+  
+h1 {
+  font-family: Creepster, roboto, 'Sans-Serif';
+  letter-spacing: 5px;
+  background-color: rgb(54, 127, 150);
+  background-color: rgba(54, 127, 150,0.5);
+  font-size: 6vw;
+  margin: 0px;
+  padding-left: 30px;
+}
+
+nav {
+  display: flex;
+  margin: 0;
+  background-color: rgb(54, 127, 150);
+  background-color: rgba(54, 127, 150,0.9);
+}
+
+nav a {
+  text-decoration: none;
+  border-right: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+#menu {
+  display: none;
+}
+
+nav a:hover {
+  background-color: black;
+  background-color: hsl(194, 47%, 20%);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-nav {
+  flex-basis: 33%;
+}
+
+.flex-box-1 {
+  flex-basis: 66%;
+  flex-grow: 2;
+}
+
+.flex-box-2 {
+  flex-basis: 33%;
+  flex-grow: 1;
+}
+
+.story {
+  margin-top: 5px;
+}
+
+.story p {
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.story h2 {
+  padding-top: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+
+.pic {
+  display: block;
+  width: 95%;
+  height: auto;
+  min-width: 250px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+figcaption {
+  padding: 5px;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+section {
+  background-color: rgb(28, 28, 28);
+  background-color: rgba(28, 28, 28,0.5);
+}
+
+aside {
+  margin-top: 5px;
+  background-color: rgb(54, 127, 150);
+  background-color: rgba(54, 127, 150, 0.3);
+  padding: 20px;
+}
+
+aside h2 {
+  margin: 0;
+}
+
+
+/* MEDIA QUERY BIT */
+
+@media only screen and (max-width: 624px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+  .flex-box-1 {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  nav a {
+    display: none;
+  }
+  
+  nav #menu {
+    display: inline-block;
+    padding: 5px 20px 5px;
+  }
+  
+  h1 {
+    font-size: 1.6em;
+  }
+}
+
