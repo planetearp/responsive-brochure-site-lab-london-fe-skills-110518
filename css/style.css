@@ -53,9 +53,6 @@ nav div:hover {
   display: flex;
 }
 
-.flex-item {
-  padding: 20px;
-}
 
 .pic {
   max-width: 60%;
