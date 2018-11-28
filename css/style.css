@@ -55,7 +55,8 @@ nav div:hover {
 
 
 .pic {
-  width: auto;
+  width: 60%;
+  height: auto;
   min-width: 360px;
 }
 
