@@ -25,7 +25,6 @@ h2 {
 
 nav {
   display: flex;
-  padding: 10px;
   background-color: rgb(54, 127, 150);
   background-color: rgba(54, 127, 150,0.9);
 }
