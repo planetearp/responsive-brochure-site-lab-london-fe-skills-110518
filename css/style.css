@@ -12,11 +12,11 @@ body {
 }
 
 section {
-    grid-column: span 2fr;
+    grid-column: span 2;
 }
 
 aside {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 footer {
